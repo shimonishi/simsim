@@ -1,0 +1,32 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Site Name"
+theme = "hugo-serif-theme"
+
+[params]
+#google_analytics_id=""
+
+[[menu.main]]
+	name = "サービス"
+	url = "/services/"
+    weight = 1
+
+[[menu.main]]
+    name = "チーム"
+    url = "/team/"
+    weight = 2
+
+[[menu.main]]
+	name = "お客様の声"
+	url = "/testimonials/"
+	weight = 3
+
+[[menu.main]]
+	name = "ブログ"
+	url = "/blog/"
+	weight = 4
+
+[[menu.main]]
+    name = "問い合わせ"
+    url = "/contact/"
+    weight = 5
